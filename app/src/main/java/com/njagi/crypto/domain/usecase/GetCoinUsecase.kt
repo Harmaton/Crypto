@@ -25,5 +25,4 @@ class GetCoinUseCase @Inject constructor(private val repo : CoinRepository){
             emit(Resource.Error("Check your Internet"))
         }
     }
-
 }
